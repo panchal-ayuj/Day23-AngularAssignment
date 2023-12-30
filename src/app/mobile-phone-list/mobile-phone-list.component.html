@@ -1,0 +1,20 @@
+<div class="mobile-list-container">
+
+    <h2>Mobile Phone List</h2>
+    <table class="mobile-table">
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Date</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let mobile of mobiles">
+                <td>{{ mobile.model }}</td>
+                <td>{{ mobile.date | date }}</td>
+                <td>{{ mobile.price }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

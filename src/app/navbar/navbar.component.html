@@ -1,0 +1,14 @@
+<nav>
+    <ul>
+        <li routerLink="/" routerLinkActive="active">Home</li>
+        <li (mouseenter)="showSubMenu = true" (mouseleave)="showSubMenu = false">
+            Products
+            <ul *ngIf="showSubMenu">
+                <li routerLink="/product/television" routerLinkActive="active">Television</li>
+                <li routerLink="/product/laptop" routerLinkActive="active">Laptop</li>
+                <li routerLink="/product/mobile-phone" routerLinkActive="active">Mobile Phone</li>
+            </ul>
+        </li>
+        <li routerLink="/contact-us" routerLinkActive="active">Contact Us</li>
+    </ul>
+</nav>

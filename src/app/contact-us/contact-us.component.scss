@@ -1,0 +1,31 @@
+/* Add this to your global styles or component-specific styles */
+.contact-us {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .contact-us a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .contact-us a:hover {
+    text-decoration: underline;
+  }
+  

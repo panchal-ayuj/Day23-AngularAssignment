@@ -1,0 +1,41 @@
+/* Add this to your global styles or component-specific styles */
+.television-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.television-list-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.television-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.television-table th,
+.television-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.television-table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.television-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.television-table tbody tr:hover {
+    background-color: #e0e0e0;
+}

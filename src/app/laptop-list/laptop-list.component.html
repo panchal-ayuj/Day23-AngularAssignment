@@ -1,0 +1,20 @@
+<div class="laptop-list-container">
+
+    <h2>Laptop List</h2>
+    <table class="laptop-table">
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Date</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let laptop of laptops">
+                <td>{{ laptop.model }}</td>
+                <td>{{ laptop.date | date }}</td>
+                <td>{{ laptop.price }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,55 @@
+/* Add this to your global styles or component-specific styles */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+  color: #ffcc00;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #333;
+  padding: 10px;
+  list-style-type: none;
+}
+
+nav ul li ul li {
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav ul li ul li:hover {
+  color: #ffcc00;
+}
+
+nav ul li.active {
+  color: red;
+}
+
+nav ul li ul li.active {
+  color: red;
+}
